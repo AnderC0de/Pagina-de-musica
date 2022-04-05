@@ -1,0 +1,377 @@
+@font-face{
+    
+}
+
+*{
+    font-family: 'Poppins';
+    background: #1F1D2B;
+    color: white;
+
+}
+
+body{
+    overflow-x: hidden;
+}
+#Menu{
+    padding: 10px;
+    display: block;
+}
+#MenuUno{
+    display: flex;
+}
+#Nombre{
+    background: linear-gradient(-90deg,#9B51E0,#3081ED,#9B51E0);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-weight: bolder;
+    background-size: 200%;
+    background-position: right;
+    margin: auto;
+    transition: 0.8s;
+    transition-delay: 0.4s;
+}
+#Nombre:hover{
+    background-position: left;
+    transition: 0.8s;
+}
+
+#Centrar .col{
+    margin: auto;
+}
+.MenuUno a{
+    margin: auto;
+    display: flex;
+}
+#Nombre:hover{
+    
+}
+#MiniMenu div{
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+}
+#MiniMenu div a:hover{
+    background-position: right;
+    transition: 0.7s;
+    text-decoration: underline;
+    
+}
+#MiniMenu div a{
+    text-decoration: none;
+    background: linear-gradient(-90deg,#9B51E0,#3081ED,white,white);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    background-position: left;
+    background-size: 260%;
+    transition: 1s;
+    transition-delay: 0.3s;
+}
+
+
+#Principal{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#Principal h1{
+    font-weight: 900;
+    font-size: 500%
+}
+
+.BotonP{
+    display: inline-block;
+    padding: 10px 40px 10px 40px;
+    color: white;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 1s;
+    border: solid 2px transparente;
+}
+#Deg{
+    background: linear-gradient(-90deg,#9B51E0,#3081ED,#9B51E0);
+    background-size: 200%;
+    background-position: right;
+    margin-right: 50px;
+}
+
+#Deg:hover{
+    background-position: left;
+    color: white;
+    transition: 1s;
+    
+    
+}
+
+#Bor{
+    border: solid 2px;
+    
+}
+#img img{
+    box-shadow: -50px -20px 100px -40px rgba(48,129,237,0.3), 50px 20px 100px -40px rgba(155,81,224,0.3);
+    
+}
+#img{
+    width: 99%;
+    display: flex;
+    margin: auto;
+    height: 99%;
+    border-radius: 15px;
+    
+}
+
+img{
+    width: 90%;
+    margin:auto;
+    height: 90%;
+    border-radius: 15px;
+}
+
+#Bor-img{
+    width: 100%;
+    background: linear-gradient(-45deg,#9B51E0,transparent,transparent,#3081ED);
+    height: auto;
+    display: flex;
+    border-radius: 15px;
+    transition: 2s;
+    margin: auto;
+;
+}
+
+#Bor-img:hover{
+    transform: scale(1.05);
+    transition: 1s;
+    background: linear-gradient(-45deg,#9B51E0,transparent,transparent,#3081ED);
+    
+}
+
+#Introduccion{
+    display: flex;
+    padding: 30px 10px 30px 0px;
+    
+}
+#Introduccion h2{
+    float: left;
+    margin:auto;
+
+
+}
+#Introduccion h4{
+    float: right;
+    margin-right: 0px;
+    
+}
+
+#Catalogo{
+    width: 100%;
+    padding-left: 9%;
+    padding-right: 9%;
+    
+}
+
+#Cataloguito div.col{
+    margin: auto;
+    padding-bottom: 55px;
+    background: none;
+    
+    
+    
+}
+#Cataloguito{
+    display: flex;
+
+}
+.Cancion{
+    background: #1F1D2B;
+    width: 90%;
+    max-width: 300px;
+    min-width: 300px;
+    height: auto;
+    overflow: auto;
+    margin: auto;
+    box-shadow: none;
+    padding: 15px; 
+    display: float;
+    /*background: linear-gradient(-45deg,#9B51E0,transparent,transparent,transparent,transparent,transparent,#3081ED);
+    background-size: 100%;
+    box-shadow: -10px -10px 100px -40px rgba(48,129,237,0.2), 10px 10px 100px -40px rgba(155,81,224,0.2);*/
+    
+    /*box-shadow: 0 0 5px linear-gradient(-45deg,#9B51E0,transparent,transparent,#3081ED);*/
+    
+}
+#Cancion1{
+    background: ;
+    width: 100%;
+    height: 100%;
+}
+
+.Aumento img{
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    opacity: 1;
+    transition: 0.8s;
+    transition-delay: 0.2s;
+}
+#IMGuno{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    border: transparent;
+    
+}
+.Aumento{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 0px;
+    border: transparent;
+    margin: auto;
+    margin-left: 5%;
+    
+}
+#IMGdos{
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    overflow: hidden;
+    
+}
+.Aumento img:hover{
+    transform: scale(1.1);
+    transition: 0.8s;
+
+}
+.NombreCancion{
+    display: flex;
+    padding-top: 10px;
+    width: 90%;
+    margin: auto;
+    height: 90%;
+}
+
+.h4s{
+    margin-right: auto;
+    
+}
+
+.ReproducirCancion{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-top: 0px;
+}
+
+.h4a{
+    padding: 5px;
+    margin-right: auto;
+    padding-top: 10px;
+    
+}
+.Reproducir{
+    border: solid 1px white;
+    padding: 3px;
+    border-radius: 15px;
+    color: white;
+    text-decoration: none;
+    transition: 0.8s;
+    transition-delay: 0.2s;
+    display: flex;
+
+    align-items: center;
+}
+
+.Reproducir h6{
+    padding: 0px;
+    background: transparent;
+    color: inherit;
+    font-weight: inherit;
+    margin-bottom: 0px;
+
+    
+}
+.Reproducir:hover{
+    background: white;
+    color: #1F1D2B;
+    transition: 0.4s;
+    
+}
+
+#Reproductor audio{
+    border-radius: 26px;
+    margin: auto;
+    display: none;
+}
+#Reproductor{
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 100%;
+    
+    background: linear-gradient(-45deg,#9B51E0,transparent,#3081ED);
+    display:  none;
+}
+#Blur{
+    filter: blur(0px);
+}
+#Click{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: none;
+    z-index: -5;
+}
+.audi{
+    height: 0%;
+    margin: auto;
+    display: block;
+    background: blue;
+    
+}
+@media screen and (max-width: 1550px){
+    #cambios{
+        width: 40%;
+    }
+    #cambios2{
+        width: 60%;
+    }
+    #cambios h3{
+        font-size: 1.5em;
+    }
+    #cambios h1{
+        font-size: 4.5em;
+    }
+}
+@media screen and (max-width: 1250px){
+    #cambios h1, #cambios h3{
+        text-align: inherit;
+    }
+    #cambios{
+        float: top;
+        width: 90%;
+        margin: auto;
+        align-content: center;
+        text-justify: justify;
+        text-align: justify;
+        display: block;
+    }
+    #cambios2{
+        display: block;
+        float: top;
+        width: 65%;
+        margin: auto;
+        margin-top: 70px;
+        margin-top: 70px;
+    }
+    #Principal{
+        display: inline;
+    }
+    #Deg{
+        margin: auto;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+
+}
